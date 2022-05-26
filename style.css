@@ -1,5 +1,4 @@
 .fondo {
-
     background-image: url(imag/namek.jpg);
     width: 863px;
     height: 600px;
@@ -10,7 +9,7 @@
     text-align: center;
 }
 
-.Personaje1 {
+.player {
     position: absolute;
     background-image: url(imag/goku.png);
     width: 43px;
@@ -20,7 +19,7 @@
     top: 450px;
     left: 40px
 }
-.Personaje2 {
+.enemy {
     position: absolute;
     background-image: url(imag/minicell.png);
     width: 43px;
@@ -75,7 +74,7 @@
 }
 
 /*
-.DisparoG {
+.projectile {
     background-image: url(imag/kamehameha.gif);
     width: 24px;
     height: 24px;
