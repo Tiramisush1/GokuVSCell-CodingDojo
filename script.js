@@ -1,6 +1,7 @@
 var leftValue = 45, 
 topValue = 450;
 
+
 function update(){
 document.getElementById("player").style.left = leftValue+"px";
 document.getElementById("player").style.top = topValue+"px";
