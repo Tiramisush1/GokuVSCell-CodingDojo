@@ -1,4 +1,4 @@
-.fondo {
+#wallpaper {
     background-image: url(imag/namek.jpg);
     width: 863px;
     height: 600px;
@@ -9,32 +9,29 @@
     text-align: center;
 }
 
-.player {
+#player {
     position: absolute;
     background-image: url(imag/goku.png);
     width: 43px;
     height: 62px;
     display: inline-block;
     background-size: contain;
-    /*
     top: 450px;
     left: 40px
-    */
+
 }
-.enemy {
+#enemy {
     position: absolute;
     background-image: url(imag/minicell.png);
     width: 43px;
     height: 53px;
     display: inline-block;
     background-size: contain;
-    /*
     top: 450px;
     left: 800px;
-    */
 }
 
-.CuadroDeVidaGoku{
+#CuadroDeVidaGoku{
     background-image: url(imag/cuadrovidagoku.png);
     width: 192px;
     height: 32px;
@@ -44,7 +41,7 @@
     left: 20px;
     position: absolute;
 }
-.BarraVidaGoku{
+#BarraVidaGoku{
     background-image: url(imag/barravidagoku.png);
     width: 165px;
     height: 24px;
@@ -55,7 +52,7 @@
     position: absolute;
 }
 
-.CuadroDeVidaMiniCell{
+#CuadroDeVidaMiniCell{
     background-image: url(imag/cuadrovidaminicell.png);
     width: 192px;
     height: 32px;
@@ -66,7 +63,7 @@
     position: absolute;
 }
 
-.BarraDeVidaMiniCell{
+#BarraDeVidaMiniCell{
     background-image: url(imag/barravidaminicell.png);
     width: 165px;
     height: 24px;
