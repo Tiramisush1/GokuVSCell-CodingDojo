@@ -6,8 +6,6 @@ document.getElementById("player").style.left = leftValue+"px";
 document.getElementById("player").style.top = topValue+"px";
 }
 
-
-
 document.onkeydown = function(e){
 console.log(e);
 if(e.keyCode == 37 && leftValue > 20) {  //izquierda
