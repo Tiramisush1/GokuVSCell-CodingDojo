@@ -30,5 +30,6 @@ else if (e.keyCode == 38 && topValue > 60) { //arriba
 }
 
 
+
 update();
 }
