@@ -24,12 +24,13 @@
 #enemy {
     position: absolute;
     background-image: url(imag/minicell.png);
-    width: 43px;
-    height: 53px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
     background-size: contain;
     top: 450px;
-    left: 800px;
+    left: 780px;
+    background-repeat: no-repeat;
 }
 
 #CuadroDeVidaGoku{
@@ -41,6 +42,7 @@
     top: 20px;
     left: 20px;
     position: absolute;
+    background-repeat: no-repeat;
 }
 #BarraVidaGoku{
     background-image: url(imag/barravidagoku.png);
@@ -51,6 +53,7 @@
     top: 24px;
     left: 40px;
     position: absolute;
+    background-repeat: no-repeat;
 }
 
 #CuadroDeVidaMiniCell{
@@ -62,6 +65,7 @@
     top: 20px;
     left: 680px;
     position: absolute;
+    background-repeat: no-repeat;
 }
 
 #BarraDeVidaMiniCell{
@@ -73,23 +77,21 @@
     top: 24px;
     left: 686px;
     position: absolute;
+    background-repeat: no-repeat;
 }
-#derecha{
-    background-image: url(imag/gokuleft.png);
-    width: 70px;
-    height: 53px;
-}
+
 
 
 #projectile {
     background-image: url(imag/kamehameha.gif);
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     display: inline-block;
     background-size: contain;
     top: 470px;
     left: 80px;
     position: absolute;
+    background-repeat: no-repeat;
 }
 /*
     background-image: url(imag/Hasganado.png);
