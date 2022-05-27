@@ -29,7 +29,5 @@ else if (e.keyCode == 38 && topValue > 60) { //arriba
     document.getElementById("player").style.backgroundImage = "url('imag/gokuup.png')"
 }
 
-
-
 update();
 }
