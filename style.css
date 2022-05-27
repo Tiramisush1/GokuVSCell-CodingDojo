@@ -12,12 +12,13 @@
 #player {
     position: absolute;
     background-image: url(imag/goku.png);
-    width: 43px;
-    height: 62px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
     background-size: contain;
     top: 450px;
-    left: 40px
+    left: 40px;
+    background-repeat: no-repeat;
 
 }
 #enemy {
@@ -78,8 +79,9 @@
     width: 70px;
     height: 53px;
 }
-/*
-.projectile {
+
+
+#projectile {
     background-image: url(imag/kamehameha.gif);
     width: 24px;
     height: 24px;
@@ -89,8 +91,7 @@
     left: 80px;
     position: absolute;
 }
-
-.victoria {
+/*
     background-image: url(imag/Hasganado.png);
     width: 401px;
     height: 113px;
