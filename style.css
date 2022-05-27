@@ -73,7 +73,11 @@
     left: 686px;
     position: absolute;
 }
-
+#derecha{
+    background-image: url(imag/gokuleft.png);
+    width: 70px;
+    height: 53px;
+}
 /*
 .projectile {
     background-image: url(imag/kamehameha.gif);
